@@ -1,0 +1,146 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+    background-color: #161616;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+      background-size: 100%;
+      background-position: top;
+  border-bottom: 50px solid #282828;
+  background-attachment: fixed;
+}
+nav{
+  position: fixed;
+  width: 100%;
+z-index: 100;
+letter-spacing: 1px;
+margin: 0%;
+
+}
+nav ul {
+  line-height: 30px;
+  list-style: none; 
+  color: #282828;
+  margin: -1%;
+  margin-left: 18%;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px 50px;
+  margin-top: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: 600;
+}
+.menu {
+  background-color:#282828;
+}
+.education {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+  }
+  
+  .education h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .education-item {
+    margin-bottom: 20px;
+  }
+  
+  .education-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .education-item p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .education-item .school {
+    font-weight: bold;
+  }
+  
+  .education-item .date {
+    font-style: italic;
+  }
+.center{
+    margin-right: 50%;
+  }
+  .parallax {
+    background-image: url("central.jpg");
+    min-height: 560px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .parallax1 {
+    background-image: url("bnhs.jpg");
+    min-height: 560px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .parallax2 {
+    background-image: url("STI.jpg");
+    min-height: 560px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .parallax3 {
+    background-image: url("BSU.jpg");
+    min-height: 560px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .edu{
+    text-align: center;
+    color: white;
+  }
+  .elementary{
+    text-align: center;
+    color: white;
+  }
+  .highschool{
+    text-align: center;
+    color: white;
+  }
+.seniorhigh{
+    text-align: center;
+    color: white;
+}
+.college{
+    text-align: center;
+    color: white;
+}
+footer {
+    padding: 35px;
+    background-color: #f94e41;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+  }
+  button{
+    border-radius: 10px;
+    background-color: #282828;
+    color: white;
+    padding: 10px 20px;
+}
